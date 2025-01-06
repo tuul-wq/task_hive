@@ -1,0 +1,22 @@
+/* jura-500 */
+@font-face {
+  font-display: swap;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 500;
+  src: url('./assets/fonts/Jura-500.woff2') format('woff2');
+}
+
+/* jura-700 */
+@font-face {
+  font-display: swap;
+  font-family: 'Jura';
+  font-style: normal;
+  font-weight: 700;
+  src: url('./assets/fonts/Jura-700.woff2') format('woff2');
+}
+
+html {
+  font-family: 'Jura', sans-serif;
+  font-size: 16px;
+}
