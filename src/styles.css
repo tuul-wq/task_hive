@@ -16,7 +16,26 @@
   src: url('./assets/fonts/Jura-700.woff2') format('woff2');
 }
 
-html {
-  font-family: 'Jura', sans-serif;
+body {
+  margin: 0;
+  padding: 0;
+  color: oklch(0.250 0.008 224);
+  font-weight: 500;
   font-size: 16px;
+  font-family: 'Jura', sans-serif;
+  font-style: normal;
+  line-height: 22px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%
+}
+
+*, :after, :before {
+  box-sizing: border-box;
+}
+
+h1, h2, p, ul {
+  margin-top: 0;
+  margin-bottom: 0;
 }
