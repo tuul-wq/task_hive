@@ -1,0 +1,15 @@
+.btn-wrapper {
+  padding-left: 8px;
+  padding-right: 8px;
+  height: 24px;
+  border-radius: 4px;
+  background-color: var(--accent);
+
+  &:hover {
+    background-color: var(--accent-hover);
+  }
+
+  &:active {
+    filter: brightness(0.95);
+  }
+}

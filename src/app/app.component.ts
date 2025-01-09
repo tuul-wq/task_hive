@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterOutlet } from '@angular/router';
-import { NavigationLayoutComponent } from './layouts/navigation-layout/navigation-layout.component';
-import { NavigationComponent } from './components/navigation/navigation.component';
+import { NavigationLayoutComponent } from '@app/components/layouts';
+import { NavigationComponent } from '@app/features/navigation';
 
 @Component({
   selector: 'app-root',

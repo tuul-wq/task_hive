@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'app-task-list',
-  imports: [],
+  selector: 'task-list',
   templateUrl: './task-list.component.html',
   styleUrl: './task-list.component.scss'
 })

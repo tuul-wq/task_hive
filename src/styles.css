@@ -19,7 +19,8 @@
 body {
   margin: 0;
   padding: 0;
-  color: oklch(0.250 0.008 224);
+  color: var(--contrary);
+  background-color: var(--primary);
   font-weight: 500;
   font-size: 16px;
   font-family: 'Jura', sans-serif;
@@ -36,7 +37,6 @@ body {
 }
 
 h1, h2, p, ul {
-  margin-top: 0;
-  margin-bottom: 0;
+  margin: 0;
   padding: 0;
 }

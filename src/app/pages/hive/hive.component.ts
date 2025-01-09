@@ -1,10 +1,15 @@
 import { Component } from '@angular/core';
+import { TaskListComponent } from '@app/features/task-list';
+import { AddTaskFormComponent } from '@app/features/add-task';
 
 @Component({
   selector: 'hive-page',
-  imports: [],
   templateUrl: './hive.component.html',
-  styleUrl: './hive.component.scss'
+  imports: [
+    TaskListComponent,
+    AddTaskFormComponent,
+  ],
+  styleUrl: './hive.component.scss',
 })
 export class HiveComponent {
 
