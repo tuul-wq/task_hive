@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, EventEmitter, Input, Output } from '@angular/core';
 
 @Component({
   selector: 'ui-button',
@@ -6,5 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './button.component.scss'
 })
 export class ButtonComponent {
-
+  @Input() type: 'submit' | 'button' = 'button';
+  
+  @Output() onClick = new EventEmitter();
 }

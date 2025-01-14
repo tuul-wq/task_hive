@@ -1,8 +1,8 @@
-<div class="layout">
-  <nav class="layout__navigation">
+<div class="layout__wrapper">
+  <div class="layout__content">
     <ng-content select="navigation-slot"></ng-content>
-  </nav>
-  <main class="layout__main">
-    <ng-content select="body-slot"></ng-content>
-  </main>
+    <main class="layout__main">
+      <ng-content select="body-slot"></ng-content>
+    </main>
+  </div>
 </div>

@@ -1,0 +1,18 @@
+.ui-link {
+  color: var(--accent);
+  text-decoration: none;
+  transition: color 200ms ease;
+
+  &:hover {
+    color: var(--accent-hover);
+  }
+
+  &:disabled {
+    cursor: not-allowed;
+    pointer-events: none;
+  }
+
+  &__active {
+    text-decoration: underline;
+  }
+}
